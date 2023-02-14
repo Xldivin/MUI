@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mui</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav>
+        <img src="https://gldev-cov19.miu.sg/wp-content/uploads/2022/12/Subtract.svg" class="logo" />
+        <ul class="list">
+            <li>
+                <a href="#">Homepage</a>
+                <div class="active"></div>
+            </li>
+            <li>
+                <a href="#">Topic</a>
+            </li>
+            <li>
+                <a href="#">Resource</a>
+            </li>
+        </ul>
+
+        <!-- phone -->
+        <div class="hamburger-menu" id="hamburger">
+            <div class="hamburger">
+                <a href="javascript:void(0)" onclick="openNav()" class="hamburger">
+                    <!-- <img class="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-35sGdQ9bua3bPDAWKtGJlvG2JCB1PX0bevgsqJTs&s" /> -->
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </a>
+            </div>
+        </div>
+        <div id="Nav" class="nav-phone">
+            <div class="nav-phone-header">
+                <a href="#" class="logo">
+                    <img src="https://gldev-cov19.miu.sg/wp-content/uploads/2022/12/Subtract1.svg" alt="" srcset="">
+                </a>
+                <a id="close" href="javascript:void(0)" onclick="closeNav()">
+                    <img src="https://gldev-cov19.miu.sg/wp-content/themes/miucov19ma/assets/ic_sharp-menu.svg"
+                        alt="close button">
+                </a>
+            </div>
+            <div class="nav_border"></div>
+            <div class="menu-heading">
+                <ul id="nav-menu">
+                    <div>
+                        <ul class="menu">
+                            <li>
+                                <a href="#" aria-current="page">
+                                    <p style="color: #8E4776; font-size: 30px;">Homepage</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p style="color: #8E4776; font-size: 30px;">Topic</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p style="color: #8E4776; font-size: 30px;">Resource</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Content -->
+    <div class="section">
+        <div class="section1">
+            <p class="paragraph1">COVID-19 Lecture Series<br /> - A Clinical Practice Perspective</p>
+        </div>
+        <div class="section2">
+            <p class="paragraph2">
+                Join our special lecture series on COVID-19 to stay up-to-date with the latest data, expert insights and
+                clinical practice on COVID-19.
+            </p>
+            <p class="paragraph3">
+                The content on this website is intended for medical professionals only.
+            </p>
+        </div>
+    </div>
+    <div class="featured">
+        <p class="paragraph4">FEATURED VIDEO</p>
+        <img class="image2" src="./assets/Black-1.png" />
+    </div>
+    <!-- Videos -->
+    <section class="swiper">
+        <div class="wrapper">
+            <div id="div-1" style="background: #8E4776;" onclick="swapDiv(1)" class="swiper-slide slide_1">
+                <div class="content"  style="background: linear-gradient(324.76deg,rgba(252,112,104,0.8)22.16%, rgba(252,112,104,0.8) 87.31%), url(https://gldev-cov19.miu.sg/wp-content/uploads/2022/11/professionals-health-1-scaled.jpeg); background-size: cover; background-repeat: no-repeat; height:100%">
+                    <div class="whole">
+                        <span class="vertical">SPECIALIZE</span>
+                        <span class="vertical">QUESTION</span>
+                        <span class="vertical">ONE</span>
+                    </div>
+                    <div class="content_div">
+                        <p class="paragraph5">Epidemiology and disease course of COVID-19</p>
+                    </div>
+                    <div class="video-btn">
+                        <p class="Btns">
+                            <button class="btn">
+                                <p>
+                                    watch the video
+                                </p>
+                        </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="div-2" style="background: #AF5490;" onclick="swapDiv(2)" class="swiper-slide slide_2">
+                <div class="content" style="background: linear-gradient(324.76deg,rgba(153,130,233,0.8)22.16%, rgba(153,130,233,0.8) 87.31%), url(https://gldev-cov19.miu.sg/wp-content/uploads/2022/11/professionals.jpeg) ; background-size: cover; height:100%">
+                    <div class="whole">
+                        <span class="vertical">SPECIALIZE</span>
+                        <span class="vertical">QUESTION</span>
+                        <span class="vertical">TWO</span>
+                    </div>
+                    <div class="content_div">
+                        <p class="paragraph5">Clinical management of patients at high risk for COVID-19</p>
+                    </div>
+                    <div class="video-btn">
+                        <p class="Btns">
+                            <button class="btn">
+                                <p>
+                                    watch the video
+                                </p>
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="div-3" style="background: #DF8E6C;" onclick="swapDiv(3)" class="swiper-slide slide_3">
+                <div class="content" style="background: linear-gradient(324.76deg,rgba(142,71,118,0.8)22.16%, rgba(142,71,118,0.8) 87.31%), url(https://gldev-cov19.miu.sg/wp-content/uploads/2022/11/proff.jpeg) ; background-size: cover; height:100%">
+                    <div class="whole">
+                        <span class="vertical">SPECIALIZE</span>
+                        <span class="vertical">QUESTION</span>
+                        <span class="vertical">THREE</span>
+                    </div>
+                    <div class="content_div">
+                        <p class="paragraph5">Reducing the burden of COVID-19</p>
+                    </div>
+                    <div class="video-btn">
+                        <p class="Btns">
+                            <button class="btn">
+                                <p>
+                                    watch the video
+                                </p>
+                        </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="div-4" style="background: #FC7068;" onclick="swapDiv(4)" class="swiper-slide slide_4">
+                <div class="content" style="background: linear-gradient(324.76deg,rgba(175,84,144,0.8)22.16%, rgba(175,84,144,0.8) 87.31%), url(https://gldev-cov19.miu.sg/wp-content/uploads/2022/11/professionals.webp) ; background-size: cover; height:100%">
+                    <div class="whole">
+                        <span class="vertical">SPECIALIZE</span>
+                        <span class="vertical">QUESTION</span>
+                        <span class="vertical">FOUR</span>
+                    </div>
+                    <div class="content_div">
+                        <p class="paragraph5">Clinical experience sharing in different regions</p>
+                    </div>
+                    <div class="video-btn">
+                        <p class="Btns">
+                            <button class="btn">
+                                <p>
+                                    watch the video
+                                </p>
+                        </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="div-5" style="background: #9982E9;" onclick="swapDiv(5)" class="swiper-slide slide_5">
+                <div class="content" style="background: linear-gradient(324.76deg,rgba(223,142,108,0.8)22.16%, rgba(223,142,108,0.8) 87.31%), url(https://gldev-cov19.miu.sg/wp-content/uploads/2022/11/profs.jpeg) ; background-size: cover; height:100%;visibility: visible;opacity: 1;">
+                    <div class="whole">
+                        <span class="vertical">SPECIALIZE</span>
+                        <span class="vertical">QUESTION</span>
+                        <span class="vertical">FIVE</span>
+                    </div>
+                    <div class="content_div">
+                        <p class="paragraph5">Epidemiology and disease course of COVID-19</p>
+                    </div>
+                    <div class="video-btn">
+                        <p class="Btns">
+                            <button class="btn">
+                                <p>
+                                    watch the video
+                                </p>
+                        </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</body>
+
+</html>
