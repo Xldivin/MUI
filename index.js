@@ -6,19 +6,26 @@ function closeNav() {
     nav.style.height = "0%";
 }
 
-
-
-// let swiper = new Swiper(".swiper", {
-//     direction: "horizontal",
-//     pagination: {
-//       el: ".swiper-pagination",
-//       clickable: true,
-//       hide: true,
-//     },
-// });
-
-
-
+const swiper = new Swiper('.swiper-bundle', {
+    // Optional parameters
+    direction: 'horizontal',
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.next',
+      prevEl: '.prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
 
 function swapDiv(id) {
     var first = document.getElementById("div-1");
